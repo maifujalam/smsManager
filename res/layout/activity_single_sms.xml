@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    tools:context=".SingleSms">
+
+    <EditText
+        android:id="@+id/editText"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="50dp"
+        android:background="#c8c6e6" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="31dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="36dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:srcCompat="@drawable/ic_action_name" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Message Manager</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_message_manager">MessageManager</string>
+</resources>
